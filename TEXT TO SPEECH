@@ -1,0 +1,6 @@
+# IMPORT pip install pyttsx3
+                                                                         CODE:
+import pyttsx3
+LIZO = pyttsx3.init()
+LIZO.say("Hey raghav kinger , I am a LIZO module. Welcome to the world of LIZO")
+LIZO.runAndWait()
