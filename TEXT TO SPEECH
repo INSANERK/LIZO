@@ -4,3 +4,11 @@ import pyttsx3
 LIZO = pyttsx3.init()
 LIZO.say("Hey raghav kinger , I am a LIZO module. Welcome to the world of LIZO")
 LIZO.runAndWait()
+                                                                              OR
+import pyttsx3
+engine = pyttsx3.init()
+RAVAN= input("Hey! whats your name ?" )
+LI = (" I am a RAVAN module "+" Welcome to the world of RAVAN")
+engine.say("HELLO"+RAVAN)  
+engine.say(LI)  
+engine.runAndWait() 
