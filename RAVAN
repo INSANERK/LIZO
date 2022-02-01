@@ -1,0 +1,7 @@
+import pyttsx3
+engine = pyttsx3.init()
+RAVAN= input("Hey! whats your name ?" )
+LI = (" I am a RAVAN module "+" Welcome to the world of RAVAN")
+engine.say("HELLO"+RAVAN)  
+engine.say(LI)  
+engine.runAndWait()
